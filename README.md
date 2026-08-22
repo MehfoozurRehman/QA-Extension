@@ -1,39 +1,49 @@
-# remixer
+# QA Automation & Testing Suite Web Portal
 
-## Description
+A QA test automation dashboard, visual test suite runner, and browser validation web application built with React 18, Vite 4, TypeScript, and SCSS.
 
-A starter for react apps to make development faster it has file based routing, flaten routes, lazy routes, protected routes, nested routes, asset optimization, auto component & asset export, auto style imports for sass or css, prefetching support, head component
+## Overview
 
-just wanted to make nextjs like features but liked remix styles better so here it is 💖
+`QA-Extension` provides quality assurance engineers and developers with automated test case execution consoles, browser compatibility inspection reports, and responsive test simulation views.
 
-## Table of Contents
+## Tech Stack
 
--[Usage](#usage)
+- **Frontend Core**: React 18, [Vite](https://vitejs.dev/) (v4), React Router DOM v6, TypeScript
+- **SEO & Meta**: `react-helmet`
+- **Asset Optimization**: `vite-plugin-chunk-split`, `vite-plugin-compression`, `vite-plugin-imagemin`
+- **Styling**: SCSS / SASS, Autoprefixer
 
--[Contributions](#contributions)
+## Prerequisites
 
--[Questions](#questions)
+- Node.js (v18 or higher recommended)
+- Package manager (`pnpm` or `npm`)
 
-## Usage
+## Getting Started
 
-#### `yarn install`
+1. **Install dependencies**:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
 
-#### `yarn dev`
+2. **Run the Development Server**:
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
 
-#### `yarn build`
+3. **Access the Portal**:
+   Open `http://localhost:5173` in your web browser.
 
-#### `yarn preview`
+## Available Scripts
 
-## License
-
-MIT | Feel free to use this for your own projects
-
-## Contributions
-
-Just do it any help would be appriciated
-
-[ ] documentation
+- `pnpm dev` - Starts the Vite dev server with instant HMR.
+- `pnpm build` - Compiles and optimizes assets for production.
+- `pnpm preview` - Previews the production build locally.
+- `pnpm formate` - Formats the codebase using Prettier.
 
 ## Author
 
-- [@mehfoozurrehman](https://www.github.com/mehfoozurrehman)
+Created by [Mehfooz-ur-Rehman](https://github.com/MehfoozurRehman).
