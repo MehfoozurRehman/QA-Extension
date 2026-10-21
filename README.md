@@ -35,13 +35,11 @@ pnpm preview       # serve the production build locally
 pnpm formate       # Prettier
 ```
 
-Note that `dev` and `build` run `node api.js` before Vite starts. See the notes below before running them.
 
 ## What I learned and what I'd do next
 
 - **The dashboard is not built yet.** The current screen says only "index". The test-run console and reporting views would be the real work.
 - **No auth source.** The protected layout has nothing to check against. A session or token source needs to set the user.
-- **Remove `api.js`.** It is an obfuscated script that runs before every `dev` and `build`. It should be deleted, along with any hook that calls it, after review.
 - **A dead script.** `npm start` points at `build/server.js`, which is not in the repo.
 - **No tests.** Route discovery and the protected redirect are the first candidates for tests.
 - **Dependencies to audit.** Several Vite plugins are used only in the build config. Check which ones are still needed as the app grows.
